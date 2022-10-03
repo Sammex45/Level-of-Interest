@@ -42,7 +42,6 @@
 
 .img-1 {
   display: flex;
-  padding: 8rem 0rem 0rem 10rem;
 }
 
 .student-info {
@@ -164,6 +163,7 @@
 .slider {
   -webkit-appearance: none;
   height: 9px;
+  width: 335px;
   border-radius: 5px;
   background: #c4004b;
   outline: none;
@@ -193,13 +193,49 @@
 
 .general-slider {
   display: flex;
+  justify-content: space-evenly;
 }
 
+.left-pane {
+  width: 100%;
+  text-align: center;
+}
+
+.left-pane > h4 {
+  margin-left: 58px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.left-pane > button {
+    width: 150px;
+    height: 50px;
+    background: #066AEF;
+    box-shadow: 0px 4px 14px rgba(51, 157, 255, 0.22);
+    border-radius: 6px;
+    color: white;
+    border: none;
+}
 .slider-container {
   padding: 5px;
-  padding-top: 6rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.slider-container div {
+  margin-bottom: 15px;
 }
 
 .container {
-    display: flex;
+  padding: 150px;
+  display: flex;
+}
+.rangeHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.rangeHeader .h44 {
+  opacity: 0.8;
 }
