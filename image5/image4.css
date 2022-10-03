@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  background-color: black;
+  display: flex;
+  height: 10vh;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.Classroom {
+  color: #fff;
+  text-align: center;
+  padding-top: 27px;
+}
+
+.space {
+  padding-left: 10rem;
+  display: flex;
+}
+
+.logo {
+  padding-top: 16px;
+  padding-right: 10rem;
+}
+
+.nav-fas {
+  padding-top: 5px;
+  padding-left: 15px;
+}
+
+.my-image {
+  width: 10rem;
+  height: 10rem;
+  background-size: cover;
+  background-position: center;
+  border-radius: 1.5rem;
+}
+
+.img-1 {
+  display: flex;
+}
+
+.student-info {
+  padding-left: 11rem;
+}
+
+.samuel {
+  padding: 1.8rem 0rem;
+}
+
+.element {
+  padding-bottom: 1rem;
+}
+
+.student-info2 {
+  display: flex;
+  padding-bottom: 1rem;
+}
+
+.no-color {
+  color: rgb(174, 0, 0);
+  margin-right: 10px;
+}
+
+.info {
+  margin-bottom: 2rem;
+}
+
+/* input{
+    border-radius: 6px;
+    box-shadow: 2px 2px 15px gray;
+    border: none;
+    padding:4px ;
+    margin-left: 1.4rem; 
+}*/
+
+.yes-no {
+  margin: 0rem 3rem;
+}
+
+.school {
+  width: 18rem;
+  padding: 0.4rem;
+}
+
+.no {
+  box-shadow: 2px 2px 15px rgb(181, 181, 181);
+  padding: 7px;
+  border-radius: 7px;
+}
+
+.completed {
+  margin-left: 3rem;
+  padding-bottom: 2rem;
+}
+
+.check {
+  position: absolute;
+  right: 45rem;
+  padding: 7px;
+  color: rgb(197, 5, 37);
+}
+
+.logout {
+  color: gray;
+  padding-left: 3rem;
+  padding-top: 2rem;
+}
+
+.cam {
+  margin: 0rem 0rem 0rem 4.5rem;
+  color: rgb(213, 22, 53);
+  position: absolute;
+  top: 22.4rem;
+}
+
+.pro {
+  padding-left: 2.8rem;
+}
+
+.cour {
+  padding-left: 2rem;
+}
+
+.Atten {
+  padding-left: 1rem;
+}
+
+.Log {
+  padding-left: 1rem;
+}
+
+.symbol {
+  padding-right: 2.8rem;
+}
+
+.circle-ch {
+  margin-top: 6rem;
+}
+
+.check-yes {
+  color: rgb(255, 16, 56);
+  padding-left: 1.1rem;
+}
+
+.ch {
+  padding: 0.5rem;
+}
+
+.times-no {
+  padding-left: 1rem;
+  color: gray;
+}
+
+.times {
+  padding: 0.4rem;
+}
+
+.slider {
+  -webkit-appearance: none;
+  height: 9px;
+  width: 335px;
+  border-radius: 5px;
+  background: #c4004b;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #fff;
+  border: 4.9px solid #d364a3;
+  cursor: pointer;
+}
+
+input::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #d43790;
+  cursor: pointer;
+}
+
+.general-slider {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.left-pane {
+  width: 100%;
+  text-align: left;
+  padding-left: 100px;
+}
+
+.flex {
+  display: flex;
+}
+.space-between {
+  justify-content: space-between;
+}
+
+.box {
+  padding: 30px 40px;
+  border-radius: 15px;
+  margin-top: 20px;
+  box-shadow: 2px 2px 15px gray;
+}
+input {
+  margin-right: 25px;
+  margin-top: 5px;
+  padding: 10px 15px;
+}
+
+.container {
+  padding: 150px;
+  display: flex;
+}
+
+input[type="range"] {
+  width: -webkit-fill-available;
+  margin-right: 0;
+}
+
+.w100{
+  width: 100%;
+}
+
+.mr{
+  margin-right: 20px;
+}
